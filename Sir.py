@@ -4,12 +4,7 @@ import matplotlib.pyplot as plt
 
 class SIR:
     def __init__(self, N, I0, beta, gamma, days):
-        """
-        N - Total population
-        I0 - Initial number of infected individuals,
-        S0 - Everyone else is susceptible to infection initially
-        Contact rate, beta, and mean recovery rate, gamma, (in 1/days)
-        """
+       
         self.N = N
         self.I0 = I0
         self.beta = beta
